@@ -1,0 +1,39 @@
+@font-face {
+  font-family: SVN-GothamBlack;
+  src: url("../../css/fonts/SVN-Gotham Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SVN-GothamLight;
+  src: url("../../css/fonts/SVN-Gotham Light.otf") format("opentype");
+}
+
+.BG_Video { position:relative; }
+.BG_Video video {
+	width: 100%;
+  	height: auto;
+	filter:brightness(50%);
+    position:relative;
+    z-index:0;
+}
+.overlayText {
+    position:absolute;
+    top:30%;
+    left:50%;
+	transform: translate(-50%, -50%);
+    z-index:1;
+	color:white;
+}
+
+.overlayTextName {
+	font-family: GothamBlack;
+/*
+	font-size: 2.5vw;	
+	line-height: 0.8vw;
+*/
+}
+
+.overlayTextTitle {
+	font-family: GothamLight;
+	font-size: 1vw;
+}
