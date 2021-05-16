@@ -1,11 +1,12 @@
 @font-face {
-  font-family: 'GothamBlack';
-  src: url('"../fonts/SVN-GothamBlack.woff2"') format("woff");
+  font-family: "GothamBlack";
+  src: url('https://github.com/m-myopia/m-myopia.github.io/raw/master/fonts/SVN-Gotham%20Bold.ttf') format('truetype');
+	
 }
 
 @font-face {
-  font-family: 'GothamLight';
-  src: url('"../fonts/SVN-GothamLight.woff2"') format("woff");
+  font-family: "GothamLight";
+  src: url('https://github.com/m-myopia/m-myopia.github.io/raw/master/fonts/SVN-Gotham%20Light.ttf') format('truetype');
 }
 
 .BG_Video { position:relative; }
@@ -26,7 +27,7 @@
 }
 
 .overlayTextName {
-	font-family: 'GothamBlack' !important;
+	font-family: "GothamBlack" !important;
 /*
 	font-size: 2.5vw;	
 	line-height: 0.8vw;
@@ -34,6 +35,6 @@
 }
 
 .overlayTextTitle {
-	font-family: 'GothamLight' !important;
+	font-family: "GothamLight" !important;
 	font-size: 1vw;
 }
