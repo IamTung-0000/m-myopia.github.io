@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'GothamBlack';
-  src: url('"../fonts/SVN-Gotham Bold.ttf"') format("truetype");
+  src: url('"../fonts/SVN-GothamBlack.woff2"') format("woff");
 }
 
 @font-face {
   font-family: 'GothamLight';
-  src: url('"../fonts/SVN-Gotham Light.ttf"') format("truetype");
+  src: url('"../fonts/SVN-GothamLight.woff2"') format("woff");
 }
 
 .BG_Video { position:relative; }
