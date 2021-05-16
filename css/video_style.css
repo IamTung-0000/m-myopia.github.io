@@ -1,12 +1,16 @@
 @font-face {
   font-family: "GothamBlack";
   src: url('https://github.com/m-myopia/m-myopia.github.io/raw/master/fonts/SVN-Gotham%20Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal; 
 	
 }
 
 @font-face {
   font-family: "GothamLight";
   src: url('https://github.com/m-myopia/m-myopia.github.io/raw/master/fonts/SVN-Gotham%20Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal; 
 }
 
 .BG_Video { position:relative; }
