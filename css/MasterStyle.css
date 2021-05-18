@@ -21,3 +21,9 @@ object {
 	margin-top: 50px;
 /*	margin: 20px;*/
 }
+
+
+#animContainer {
+  width: 100%;
+  height: 100%;
+}
