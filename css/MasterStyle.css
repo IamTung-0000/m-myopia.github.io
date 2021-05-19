@@ -4,10 +4,32 @@
 
 .siteContainer {
 	margin-top: 0px;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 18%;
+	margin-right: 18%;
 	margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1440px){
+	.siteContainer {
+		margin-top: 0px;
+		margin-left: 8%;
+		margin-right: 8%;
+		margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px){
+	.siteContainer {
+		margin-top: 0px;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 10px;
+  }
+}
+
+
+
+
 
 object {
     width: 100%;
@@ -53,5 +75,6 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
 
 
