@@ -1,6 +1,14 @@
+body{
+    background-color: black !important;;
+}
+
+
 * {
   box-sizing: border-box;
 }
+
+
+
 
 .siteContainer {
 	margin-top: 0px;
@@ -31,13 +39,16 @@
 
 object {
     width: 100%;
+/*	position: absolute;*/
+	margin-left: -5%;
 }
+
 
 .about_img {
 	margin-top: 10px;
 	margin-left: 10px;
-	margin-right: 100px;
-/*	margin: 20px;*/
+	margin-right: 10px;
+
 }
 
 .showreel {
@@ -75,6 +86,16 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+
+#footerLogo {
+	width: 20%;
+}
+.sitefooter{
+	margin-top: 80px;
+}
+
+
+
 
 
 
